@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 56px;
+        }
+        .hero {
+            background: url('/static/home_image.jpg') center center no-repeat;
+            background-size: cover;
+            height: 500px;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .features {
+            padding: 50px 0;
+        }
+        .footer {
+            background: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Your Brand</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1 class="display-4">Welcome to Your Website</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="feature-item">
+                        <i class="icon-screen-smartphone m-auto text-primary"></i>
+                        <h3>Responsive</h3>
+                        <p class="text-muted">Our templates are fully responsive and look great on any device.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature-item">
+                        <i class="icon-layers m-auto text-primary"></i>
+                        <h3>Bootstrap 4</h3>
+                        <p class="text-muted">Built with the latest version of Bootstrap, the world’s most popular framework.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature-item">
+                        <i class="icon-check m-auto text-primary"></i>
+                        <h3>Easy to Use</h3>
+                        <p class="text-muted">Ready to use with your own content, or customize to your liking.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h2>this is my laptop image</h2>
+    <img src="/static/home_image.jpg" alt="" width="200" height="200">
+
+<a href="/about"><button>ABOUT PAGE</button></a>
+<a href="/contact"><button>CONTACT PAGE</button></a>
+<a href="/static/syllabus.pdf"><button>SYLLABUS PREVIEW</button></a>
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p class="m-0">© 2024 Your Website. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
