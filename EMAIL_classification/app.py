@@ -20,6 +20,11 @@ def predict():
         prediction = str(model.predict(transformed_email)[0])
         print(prediction)
         dt = {'0':'ham','1':'spam'}
+        #if prediction =="0":
+        #     return "ham"
+        # else:
+        #     return "Spam"
+
         return dt[prediction]
 
 if __name__ =="__main__":
